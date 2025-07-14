@@ -40,7 +40,6 @@ npm run build
 This site is deployed on **Netlify**:  
 [https://your-portfolio.netlify.app](https://your-portfolio.netlify.app)
 
-```
 
 ## Technologies Used
 
@@ -51,6 +50,3 @@ This site is deployed on **Netlify**:
 
 
 
----
-
-Let me know if you want me to customize a README for your actual portfolio.
