@@ -17,3 +17,21 @@ Clone the repository and install dependencies:
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 cd YOUR_REPO_NAME
 npm install
+
+## Development
+
+```bash
+npm start
+
+## Build for Production
+
+```bash
+npm run build
+
+## Deployment
+
+This site is deployed on Netlify: 
+
+
+
+
