@@ -4,9 +4,9 @@ This is a personal portfolio website built with React. It showcases my skills, p
 
 ## Features
 
-- Responsive design
-- React components and routing
-- Project showcase section
+- Responsive design  
+- React components and routing  
+- Project showcase section  
 - Contact form integrated with Netlify
 
 ## Getting Started
@@ -17,24 +17,40 @@ Clone the repository and install dependencies:
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 cd YOUR_REPO_NAME
 npm install
+```
 
-```markdown
 ## Development
+
+Start the development server:
 
 ```bash
 npm start
+```
 
-```markdown
 ## Build for Production
+
+To create a production-ready build:
 
 ```bash
 npm run build
+```
 
-```markdown
 ## Deployment
 
-This site is deployed on Netlify: 
+This site is deployed on **Netlify**:  
+[https://your-portfolio.netlify.app](https://your-portfolio.netlify.app)
+
+```
+
+## Technologies Used
+
+- React  
+- React Router DOM  
+- CSS / SCSS  
+- Netlify
 
 
 
+---
 
+Let me know if you want me to customize a README for your actual portfolio.
