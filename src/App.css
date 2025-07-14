@@ -1,38 +1,108 @@
-.App {
+/* Reset and base styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0f172a;
+  color: #f1f5f9;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+section {
+  padding: 80px 20px;
+  max-width: 960px;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  color: #f8fafc;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #cbd5e1;
+}
+
+/* Hero styles */
+.hero {
   text-align: center;
+  padding-top: 100px;
+  padding-bottom: 120px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hero h1 {
+  font-size: 48px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hero p {
+  font-size: 20px;
+  margin-top: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn {
+  background-color: #38bdf8;
+  color: #0f172a;
+  padding: 10px 20px;
+  margin-top: 20px;
+  display: inline-block;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0ea5e9;
+}
+
+/* Navigation (optional add-on) */
+nav {
+  position: sticky;
+  top: 0;
+  background: #0f172a;
+  padding: 20px 40px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  z-index: 1000;
 }
 
-.App-link {
-  color: #61dafb;
+nav .logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #f8fafc;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav .nav-links a {
+  margin-left: 20px;
+  color: #94a3b8;
+  font-weight: 500;
+}
+
+nav .nav-links a:hover {
+  color: #f8fafc;
+}
+
+/* Section Titles */
+section h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #334155;
+  padding-bottom: 10px;
+}
+
+/* Project cards */
+.projects div {
+  background: #1e293b;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.projects div:hover {
+  transform: scale(1.02);
 }

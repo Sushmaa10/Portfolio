@@ -1,0 +1,18 @@
+.footer {
+  background-color: #0f172a;
+  color: #f8fafc;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 16px;
+}
+
+.footer a {
+  color: #38bdf8;
+  text-decoration: none;
+}

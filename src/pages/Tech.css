@@ -1,0 +1,36 @@
+.tech {
+  background-color: #0f172a;
+  color: #f8fafc;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.tech h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.tech-group {
+  margin-bottom: 40px;
+}
+
+.tech-group h3 {
+  color: #38bdf8;
+  margin-bottom: 16px;
+}
+
+.tech-group ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+}
+
+.tech-group li {
+  background-color: #1e293b;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+}
