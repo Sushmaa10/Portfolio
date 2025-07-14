@@ -12,7 +12,7 @@ const ContactForm = ({ onClose }) => {
           name="contact"
           method="POST"
           data-netlify="true"
-          action="/thank-you"
+          action="/thank-you/"
           >
          <input type="hidden" name="form-name" value="contact" />
          <input type="text" name="name" placeholder="Your Name" required />
