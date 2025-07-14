@@ -18,16 +18,19 @@ git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 cd YOUR_REPO_NAME
 npm install
 
+```markdown
 ## Development
 
 ```bash
 npm start
 
+```markdown
 ## Build for Production
 
 ```bash
 npm run build
 
+```markdown
 ## Deployment
 
 This site is deployed on Netlify: 
